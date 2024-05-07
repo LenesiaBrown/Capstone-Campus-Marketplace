@@ -1,0 +1,107 @@
+.navbar{
+    background-color: #14193d;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding-top: 10px;
+}
+
+.nav-logo{
+    display:flex;
+    flex-direction: column;
+}
+
+.nav-logo img{
+    width: 200px;
+    height: auto;
+}
+
+.nav-menu img{
+    width: 50px;
+    height: auto;
+}
+
+.nav-search{
+    display: flex;
+    justify-content: row;
+}
+
+.nav-search input{
+    width: 700px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+.nav-search img{
+   width: 40px;
+}
+
+.nav-cart-count{
+    width: 22px;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: red;
+    color:white;
+    font-size: 14px;
+    margin-top: -55px;
+    margin-right: 70px;
+    border-radius: 11px;
+}
+
+
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-menu li{
+    list-style-type: none;
+    margin-left: 10px;
+}
+
+.navbar2{
+    color: white;
+    background-color: #14193d;
+    list-style-type: none;
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+
+.dropdown-menu{
+    list-style-type: none;
+    
+}
+
+.sub-menu li{
+    list-style-type: none;
+    margin-bottom:5px;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.sub-menu Link{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.dropdown-menu{
+    margin-bottom:5px;
+}
+
+.slideshow{
+    width: 90%;
+    length: auto;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.homeslide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
